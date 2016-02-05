@@ -1,0 +1,36 @@
+{
+  "name": "sha1-cli",
+  "version": "0.0.0",
+  "description": "My bedazzling module",
+  "license": "MIT",
+  "repository": "niksrc/sha1-cli",
+  "author": {
+    "name": "Nikhil Srivastava",
+    "email": "niksrc@gmail.com",
+    "url": "niksrc.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "glob": "^6.0.4",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
