@@ -8,13 +8,14 @@ var cli = meow([
 	'  $ sha1-cli [input]',
 	'',
 	'Options',
-	'  --foo  Lorem ipsum. [Default: false]',
+	'  --sum  file to compare sha1 sum. [Default: sha1.txt]',
+	'  --sha1 display sha1 sum of given file.',
 	'',
 	'Examples',
-	'  $ sha1-cli',
-	'  unicorns & rainbows',
-	'  $ sha1-cli ponies',
-	'  ponies & rainbows'
+	'  $ sha1-cli ponies --sha1',
+	'  c25db8c82904f163f1148c4a7e0b843601c49c9d',
+	'  $ sha1-cli ponies --sum rainbow.sha1.txt',
+	'  Passed :)'
 ]);
 
-console.log(sha1Cli(cli.input[0] || 'unicorns'));
+console.log(sha1Cli(cli));
