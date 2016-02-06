@@ -18,4 +18,8 @@ var cli = meow([
 	'  Passed :)'
 ]);
 
-console.log(sha1Cli(cli));
+if (typeof cli.input[0] === 'string') {
+	sha1Cli(cli.input[0], cli.flags, console.log);
+} else {
+	console.log('  Specify a input file\n' + cli.help);
+}
