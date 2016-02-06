@@ -1,7 +1,7 @@
 {
   "name": "sha1-cli",
-  "version": "0.0.0",
-  "description": "My bedazzling module",
+  "version": "0.1.0",
+  "description": "CLI for comparing and calculating sha1 sums of files",
   "license": "MIT",
   "repository": "niksrc/sha1-cli",
   "author": {
@@ -23,7 +23,8 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "sha1",
+    "compare"
   ],
   "dependencies": {
     "meow": "^3.6.0",
