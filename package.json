@@ -27,8 +27,7 @@
     "compare"
   ],
   "dependencies": {
-    "meow": "^3.6.0",
-    "path-resolver": "0.0.2"
+    "meow": "^3.6.0"
   },
   "devDependencies": {
     "ava": "^0.8.0",
